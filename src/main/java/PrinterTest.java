@@ -29,4 +29,9 @@ public class PrinterTest {
         assertEquals(100, printer.getPaper());
     }
 
+    @Test
+    public void hasToner() {
+        assertEquals(50, printer.getToner());
+    }
+
 }
