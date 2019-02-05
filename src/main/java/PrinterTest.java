@@ -11,6 +11,11 @@ public class PrinterTest {
     public void before() { printer = new Printer(100, 50);}
 
     @Test
+    public void has100sheets() {
+        assertEquals(100, printer.getNumberOfSheets());
+    }
+
+    @Test
     public void print() {
         printer.print(20);
         assertEquals(80, printer.getPaper());

@@ -29,4 +29,7 @@ public class Printer {
     }
 
 
+    public int getNumberOfSheets() {
+        return this.paper;
+    }
 }
